@@ -1,0 +1,34 @@
+name: MovionEssentials
+version: '${project.version}'
+main: me.movion.movionessentials.MovionEssentials
+api-version: 1.18
+authors: [ Movion ]
+description: Essentials Commands for Movion
+website: https://movion.me
+commands:
+  gms:
+    description: Sets the gamemode to survival.
+    usage: /<command> [player]
+    aliases:
+      - survival
+  gmc:
+    description: Sets the gamemode to creative.
+    usage: /<command> [player]
+    aliases:
+      - creative
+  gma:
+    description: Sets the gamemode to adventure.
+    usage: /<command> [player]
+    aliases:
+      - adventure
+  gmsp:
+    description: Sets the gamemode to spectator.
+    usage: /<command> [player]
+    aliases:
+      - spectator
+  sethome:
+    description: Create a home at your current location you can use later with /home
+    usage: /<command>
+  home:
+    description: If set, you can return to your home.
+    usage: /<command>
