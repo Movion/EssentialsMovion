@@ -1,3 +1,3 @@
 # EssentialsMovion
-My personal essentials commands. Work in progres
+My personal essentials commands. Work in progress
 
